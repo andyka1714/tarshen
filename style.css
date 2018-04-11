@@ -432,6 +432,7 @@ ul.default-list li:after{
     padding-top: 15px;
     padding-bottom: 15px;
     letter-spacing: 2px;
+    font-family: PingFangTC;
 }
 .slider-desc .btn-booking:hover, .slider-desc .btn-booking:focus{
     background: #1176cf;
