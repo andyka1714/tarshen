@@ -152,8 +152,8 @@ ul.default-list li:after{
     padding:30px 0;
     display: block;
 }
-.info-nav-wrap{
-
+.logo-wrap img{
+    max-width: 75%;
 }
 
 .info-section{
