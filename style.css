@@ -3764,10 +3764,8 @@ table.cart th, table.cart td{
 .testimonial-height{
     min-height: 250px;
 }
-@media (min-width: 992px){
-    .info-nav-wrap{
-        margin-top: 20px;
-    }
+.info-nav-wrap{
+    margin-top: 20px;
 }
 @media (max-width: 992px){
     .testimonial-content{
