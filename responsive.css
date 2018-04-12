@@ -388,11 +388,14 @@
         margin-top: 3%;
     }
     .big-title-slider{
-        font-size: 18px;
-        margin-bottom: 10px;
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    .big-title-slider p{
+        margin-bottom: 5px;
     }
     .big-title-slider span{
-        font-size: 13px;
+        font-size: 12px;
     }
     .slider-desc .btn-booking {
         font-size: 12px;
