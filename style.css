@@ -1627,7 +1627,7 @@ ul.default-list li:after{
 }
 .department-tab-content-wrap{
     background-color: #f7f7f8;
-    padding: 65px 0 85px;
+    padding: 35px 0 85px;
 }
 .department-tab-nav-wrap .small-line{
     background: #f69165 ;
@@ -1650,7 +1650,7 @@ ul.default-list li:after{
 }
 .department-tab-content-wrap .tab-content p{
     padding:0 50px;
-    color: #6e7682 ;
+    color: #4a4a4a;
     font-size: 14px;
     line-height: 24px;
     margin-bottom: 50px;
@@ -1666,6 +1666,10 @@ ul.default-list li:after{
 }
 .department-tab-content-wrap .tab-content{
     margin-left: 16%;
+}
+.department-tab-content-wrap .description{
+    text-align: center;
+    margin-left: -16%;
 }
 /*--------------------------------- Blog page ----------------------------------------*/
 #blog-section{
@@ -2935,7 +2939,7 @@ div.ppt{
 }
 
 .tab-departments.nav-tabs>li>a:hover .oral, .tab-departments.nav-tabs>li.active>a:hover .oral, .tab-departments.nav-tabs>li.active>a .oral{
-    background: url(images/icon-snow.png) no-repeat;
+    background: url(images/icon-snow-change.png) no-repeat;
 }
 .tab-departments.nav-tabs>li>a:hover .hepatology, .tab-departments.nav-tabs>li.active>a:hover .hepatology, .tab-departments.nav-tabs>li.active>a .hepatology{
     background: url(images/icon-sock-change.png) no-repeat;
@@ -3746,10 +3750,12 @@ table.cart th, table.cart td{
     padding: 0 5px 0 0;
     font-size: 14px;
 }
-
+#testimonial-desc img{
+    width: 100%;
+}
 /*-----------------------------------------------------------------*/
 .container-fluid{
-    padding: 0;
+    padding: 0!important;
 }
 .relative{
     position: relative;
