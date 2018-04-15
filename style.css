@@ -1608,8 +1608,10 @@ ul.default-list li:after{
     border-left: 0;
     border-bottom: 0;
 }
-.tab-departments.nav-tabs>li:last-child, .tab-departments.nav-tabs>li:nth-child(3){
+/* .tab-departments.nav-tabs>li:last-child,  */
+.tab-departments.nav-tabs>li:nth-child(3){
     border-right: 0;
+    border-bottom: 1px solid #eae9e7;
 }
 .tab-departments.nav-tabs>li>a{
     border-radius: 0;
@@ -2710,7 +2712,7 @@ div.ppt{
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 0.5px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     line-height: 30px;
 }
 .contact-detail-soc li{
