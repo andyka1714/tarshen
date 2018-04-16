@@ -2522,7 +2522,7 @@ $('.nav-tabs li').on('click', 'a', (e) => {
     function () {
       $(`#sprdct-image${index}`).slick('resize')
       $(`#sprdct-thumb${index}`).slick('resize')
-    }, 200
+    }, 500
     )
   console.log(index)
 })
