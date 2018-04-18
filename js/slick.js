@@ -2522,7 +2522,18 @@ $('.nav-tabs li').on('click', 'a', (e) => {
     function () {
       $(`#sprdct-image${index}`).slick('resize')
       $(`#sprdct-thumb${index}`).slick('resize')
-    }, 500
+    }, 200
+    )
+  console.log(index)
+})
+
+$('.nav-tabs li').on('touch', 'a', (e) => {
+  var index = $(e.currentTarget).attr('href').split('').pop()
+  setInterval(
+    function () {
+      $(`#sprdct-image${index}`).slick('resize')
+      $(`#sprdct-thumb${index}`).slick('resize')
+    }, 110
     )
   console.log(index)
 })

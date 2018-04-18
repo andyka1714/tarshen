@@ -127,6 +127,7 @@ ul.default-list li:after{
     width: 13px;
     height: 13px;
     margin: 0;
+    padding: 0;
     background: url(images/bullets-testimonial.png)no-repeat;
     filter: Alpha(Opacity=100);
     margin:0 5px;
