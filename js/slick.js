@@ -2518,22 +2518,22 @@ window.__debug = false;
 
 $('.nav-tabs li').on('click', 'a', (e) => {
   var index = $(e.currentTarget).attr('href').split('').pop()
-  setInterval(
+  setTimeout(
     function () {
       $(`#sprdct-image${index}`).slick('resize')
       $(`#sprdct-thumb${index}`).slick('resize')
-    }, 200
+    }, 130
     )
   console.log(index)
 })
 
 $('.nav-tabs li').on('touch', 'a', (e) => {
   var index = $(e.currentTarget).attr('href').split('').pop()
-  setInterval(
+  setTimeout(
     function () {
       $(`#sprdct-image${index}`).slick('resize')
       $(`#sprdct-thumb${index}`).slick('resize')
-    }, 110
+    }, 130
     )
   console.log(index)
 })
