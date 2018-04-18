@@ -2522,17 +2522,8 @@ $('.nav-tabs li').on('click', 'a', (e) => {
     function () {
       $(`#sprdct-image${index}`).slick('resize')
       $(`#sprdct-thumb${index}`).slick('resize')
-    }, 130
-    )
-  console.log(index)
-})
-
-$('.nav-tabs li').on('touch', 'a', (e) => {
-  var index = $(e.currentTarget).attr('href').split('').pop()
-  setTimeout(
-    function () {
-      $(`#sprdct-image${index}`).slick('resize')
-      $(`#sprdct-thumb${index}`).slick('resize')
+      // $(`#sprdct-thumb${index} .slick-next`).click()
+      $(`#sprdct-thumb${index} .item`).click()
     }, 130
     )
   console.log(index)
