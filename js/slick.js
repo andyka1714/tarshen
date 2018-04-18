@@ -2523,7 +2523,7 @@ $('.nav-tabs li').on('click', 'a', (e) => {
       $(`#sprdct-image${index}`).slick('resize')
       $(`#sprdct-thumb${index}`).slick('resize')
       // $(`#sprdct-thumb${index} .slick-next`).click()
-      $(`#sprdct-thumb${index} .item`).click()
+      $(`#sprdct-thumb${index} .item:fist-child(n)`).click()
     }, 130
     )
   console.log(index)
